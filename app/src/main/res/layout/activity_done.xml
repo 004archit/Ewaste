@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".Done"
+    android:background="#57666d">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="#57666d">
+
+        <!-- Owner Name Section -->
+        <TextView
+            android:id="@+id/tv_owner_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner Name:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_owner_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Pickup Address Section -->
+        <TextView
+            android:id="@+id/tv_pickup_address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pickup Address:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_pickup_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Pickup Partner Section -->
+        <TextView
+            android:id="@+id/tv_pickup_partner_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pickup Partner:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_pickup_partner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Name:-Aman Nagar"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pickup_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Contact No:-8539676788"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:text="Uploaded Image"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/fetched"
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:alpha="0.8"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US:                                                         "
+        android:background="#57666d"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:alpha="0.8"
+        android:textStyle="bold"></TextView>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:alpha="1">
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        android:background="@drawable/gmaillogo"
+        android:id="@+id/gmaillogo"></ImageButton>
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/instlogo"
+        android:id="@+id/instslogo"></ImageButton>
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/youtubelogo"
+        android:id="@+id/youtubelogo"></ImageButton>
+    <ImageButton
+    android:layout_width="80dp"
+    android:layout_height="60dp"
+    android:background="@drawable/facebooklogo"
+    android:id="@+id/facebooklogo"></ImageButton>
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        android:background="@drawable/phonelogo"
+        android:id="@+id/phonelogo"></ImageButton>
+</LinearLayout>
+
+
+</LinearLayout>
